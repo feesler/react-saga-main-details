@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useHistory, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { fetchServicesRequest } from '../actions/actionCreators';
 import Spinner from './Spinner';
 import ServiceItem from './ServiceItem';
@@ -15,7 +15,7 @@ function ServiceList(props) {
 
   const handleRepeat = () => {
     fetchList();
-  }
+  };
 
   useEffect(() => {
     fetchList();
@@ -36,7 +36,7 @@ function ServiceList(props) {
 
   return (
     <div className="service-list">
-      { !items.length && <span className="empty-list-message">No services</span>}
+      {!items.length && <span className="empty-list-message">No services</span>}
       <ul className="list-group">
         {items.map((item) => (
           <Link
