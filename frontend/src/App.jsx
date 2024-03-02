@@ -7,12 +7,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" exact>
-          <ServiceList />
-        </Route>
-        <Route path="/:id/details" exact>
-          <ServiceDetails />
-        </Route>
+        <Route path="/" Component={ServiceList} />
+        <Route path="/:id/details" Component={ServiceDetails} />
       </Routes>
     </div>
   );
