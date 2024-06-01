@@ -5,7 +5,7 @@ import {
   FETCH_SERVICES_REQUEST,
   FETCH_SERVICES_FAILURE,
   FETCH_SERVICES_SUCCESS,
-} from './actionTypes';
+} from './actionTypes.js';
 
 export const fetchServiceDetailsRequest = (id) => ({
   type: FETCH_SERVICE_DETAILS_REQUEST,

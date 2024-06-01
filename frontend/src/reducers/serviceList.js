@@ -2,7 +2,7 @@ import {
   FETCH_SERVICES_REQUEST,
   FETCH_SERVICES_FAILURE,
   FETCH_SERVICES_SUCCESS,
-} from '../actions/actionTypes';
+} from '../actions/actionTypes.js';
 
 const initialState = {
   items: [],

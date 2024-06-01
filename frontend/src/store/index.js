@@ -1,8 +1,8 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import serviceListReducer from '../reducers/serviceList';
-import serviceDetailsReducer from '../reducers/serviceDetails';
-import saga from '../sagas';
+import serviceListReducer from '../reducers/serviceList.js';
+import serviceDetailsReducer from '../reducers/serviceDetails.js';
+import saga from '../sagas/index.js';
 
 const reducer = combineReducers({
   serviceList: serviceListReducer,

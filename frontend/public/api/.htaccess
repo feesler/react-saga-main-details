@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteBase /netology/13/react-saga-main-details/api/
+RewriteBase /projects/netology/13/react-saga-main-details/api/
 
 RewriteRule ^(.*)$ services.php?route=$1 [L,QSA]
 

@@ -4,8 +4,8 @@ import {
   fetchServiceDetailsFailure,
   fetchServicesSuccess,
   fetchServicesFailure,
-} from '../actions/actionCreators';
-import { FETCH_SERVICES_REQUEST, FETCH_SERVICE_DETAILS_REQUEST } from '../actions/actionTypes';
+} from '../actions/actionCreators.js';
+import { FETCH_SERVICES_REQUEST, FETCH_SERVICE_DETAILS_REQUEST } from '../actions/actionTypes.js';
 
 const servicesUrl = process.env.REACT_APP_API_URL;
 

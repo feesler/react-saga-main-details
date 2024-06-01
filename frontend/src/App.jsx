@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import ServiceList from './components/ServiceList';
-import ServiceDetails from './components/ServiceDetails';
+import ServiceList from './components/ServiceList.jsx';
+import ServiceDetails from './components/ServiceDetails.jsx';
 import './App.css';
 
 function App() {

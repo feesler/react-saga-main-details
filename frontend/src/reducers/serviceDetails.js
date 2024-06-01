@@ -2,7 +2,7 @@ import {
   FETCH_SERVICE_DETAILS_REQUEST,
   FETCH_SERVICE_DETAILS_SUCCESS,
   FETCH_SERVICE_DETAILS_FAILURE,
-} from '../actions/actionTypes';
+} from '../actions/actionTypes.js';
 
 const initialState = {
   item: null,

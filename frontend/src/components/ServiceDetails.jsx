@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { fetchServiceDetailsRequest } from '../actions/actionCreators';
-import Spinner from './Spinner';
-import Card from './Card';
+import { fetchServiceDetailsRequest } from '../actions/actionCreators.js';
+import Spinner from './Spinner.jsx';
+import Card from './Card.jsx';
 
 const formatPrice = (value, currency = '₽') => {
   if (value === null) {
